@@ -62,5 +62,19 @@ users(employee) = view|edit
 login
 register
 
+Steven
+Categories
+Products
+Stocks
+Dashboard
+
+Petter
+Login
+Register
+User
+Transactions
+Charts
+Calendar
+Export
 
 
