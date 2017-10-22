@@ -13,11 +13,12 @@ class TransactionTypeSeeder extends Seeder
     public function run()
     {
         TransactionType::insert([
-    	[
-        	'name' => 'Restock'
-        ], 
-    	[
-    		'name' => 'Sold'
-    	]]);
+            [
+                'name' => 'Restock'
+            ],
+            [
+                'name' => 'Sold'
+            ]
+        ]);
     }
 }

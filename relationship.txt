@@ -1,0 +1,53 @@
+products
+  - id = int|primary
+  - category_id = int|not null
+  - name = varchar(255)|not null
+  - description = text|null
+  - datetime_added = timestamp
+  - datetime_updated = timestamp
+categories
+  - id = int|primary
+  - name = varchar(255)|not null
+  - description = text|null
+  - datetime_added = timestamp
+  - datetime_updated = timestamp
+users
+  - id = int|primary
+  - role_id = int|not null
+  - first_name = varchar(255)|not null
+  - last_name = varchar(255)|not null
+  - username = varchar(255)|not null
+  - password = varchar(255)|not null
+  - datetime_added = timestamp
+  - datetime_updated = timestamp
+roles
+  - id = int|primary
+  - name = varchar(255)|not null
+stocks
+  - id = int|primary
+  - product_id = int|not_null
+  - quantity = int|not null
+  - price = double|not null
+  - datetime_added = timestamp
+  - datetime_updated = timestamp
+transactions
+  - id = int|primary
+  - type_id = int|not null
+  - stock_id = int|not null
+  - quantity = int|not null:default(0)
+  - datetime_added = timestamp
+transaction_types
+  - id = int|primary
+  - name = varchar(255)|not null
+
+categories has many products
+products belongs to one category
+products has many stocks
+stocks belongs to one product
+many transactions belongs to one stock
+one stocks has many transactions
+many transactions belongs to one transaction type
+many users has one roles
+
+
+
