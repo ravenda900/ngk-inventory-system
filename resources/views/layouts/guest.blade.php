@@ -116,12 +116,12 @@
         </div>
         <script src="{{ asset('js/app.js') }}"></script>
 
-        <script src="{{ asset('/assets/js/jquery-3.2.1.min.js') }}" type="text/javascript"></script>
-        <script src="{{ asset('/assets/js/bootstrap.min.js') }}" type="text/javascript"></script>
-        <script src="{{ asset('/assets/js/material.min.js') }}" type="text/javascript"></script>
-        <script src="{{ asset('/assets/js/perfect-scrollbar.jquery.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('/assets/js/jquery-3.2.1.min.js') }}"></script>
+        <script src="{{ asset('/assets/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('/assets/js/material.min.js') }}"></script>
+        <script src="{{ asset('/assets/js/perfect-scrollbar.jquery.min.js') }}"></script>
         <!-- Library for adding dinamically elements -->
-        <script src="{{ asset('/assets/js/arrive.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('/assets/js/arrive.min.js') }}"></script>
         <!-- Forms Validations Plugin -->
         <script src="{{ asset('/assets/js/jquery.validate.min.js') }}"></script>
         <!-- Promise Library for SweetAlert2 working on IE -->
@@ -160,7 +160,7 @@
         <script src="{{ asset('/assets/js/material-dashboard.js') }}"></script>
         <!-- Material Dashboard DEMO methods, don't include it in your project! -->
         <script src="{{ asset('/assets/js/demo.js') }}"></script>
-        <script type="text/javascript">
+        <script>
             $().ready(function() {
                 demo.checkFullPageBackgroundImage();
 
