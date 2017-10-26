@@ -16,8 +16,10 @@ window.Vue = require('vue');
  */
 
 Vue.component('app-component', require('./components/AppComponent.vue'));
-Vue.component('login-component', require('./components/LoginComponent.vue'));
-Vue.component('register-component', require('./components/RegisterComponent.vue'));
+
+// auth
+Vue.component('login-component', require('./components/auth/LoginComponent.vue'));
+Vue.component('register-component', require('./components/auth/RegisterComponent.vue'));
 
 const app = new Vue({
     el: '#app'
