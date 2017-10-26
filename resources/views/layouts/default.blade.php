@@ -512,7 +512,7 @@
         <!--  Plugin for Select, full documentation here: https://silviomoreto.github.io/bootstrap-select -->
         <!-- <script src="{{ asset('/assets/js/jquery.select-bootstrap.js') }}"></script> -->
         <!--  DataTables.net Plugin, full documentation here: https://datatables.net/    -->
-        <!-- <script src="{{ asset('/assets/js/jquery.datatables.js') }}"></script> -->
+        <script src="{{ asset('/assets/js/jquery.datatables.js') }}"></script>
         <!-- Sweet Alert 2 plugin, full documentation here: https://limonte.github.io/sweetalert2/ -->
         <!-- <script src="{{ asset('/assets/js/sweetalert2.js') }}"></script> -->
         <!-- Plugin for Fileupload, full documentation here: https://www.jasny.net/bootstrap/javascript/#fileinput -->

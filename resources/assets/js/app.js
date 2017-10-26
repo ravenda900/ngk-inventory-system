@@ -21,6 +21,8 @@ Vue.component('home-component', require('./components/HomeComponent.vue'));
 Vue.component('login-component', require('./components/auth/LoginComponent.vue'));
 Vue.component('register-component', require('./components/auth/RegisterComponent.vue'));
 
-const app = new Vue({
-    el: '#app'
+$(document).ready(function() {
+	const app = new Vue({
+	    el: '#app'
+	});
 });
