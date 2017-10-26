@@ -522,7 +522,7 @@
         <!-- Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
         <!-- <script src="{{ asset('/assets/js/jquery.tagsinput.js') }}"></script> -->
         <!-- Material Dashboard javascript methods -->
-        <!-- <script src="{{ asset('/assets/js/material-dashboard.js') }}"></script> -->
+        <script src="{{ asset('/assets/js/material-dashboard.js') }}"></script>
         <!-- Material Dashboard DEMO methods, don't include it in your project! -->
         <!-- <script src="{{ asset('/assets/js/demo.js') }}"></script> -->
         <!-- <script>
