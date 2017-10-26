@@ -15,7 +15,7 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('dashboard-component', require('./components/DashboardComponent.vue'));
+Vue.component('home-component', require('./components/HomeComponent.vue'));
 Vue.component('login-component', require('./components/LoginComponent.vue'));
 Vue.component('register-component', require('./components/RegisterComponent.vue'));
 
