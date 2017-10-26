@@ -31,8 +31,6 @@
         </div>
         <script src="{{ asset('js/app.js') }}"></script>
 
-        <script src="{{ asset('/assets/js/jquery-3.2.1.min.js') }}" type="text/javascript"></script>
-        <script src="{{ asset('/assets/js/bootstrap.min.js') }}" type="text/javascript"></script>
         <script src="{{ asset('/assets/js/material.min.js') }}" type="text/javascript"></script>
         <script src="{{ asset('/assets/js/perfect-scrollbar.jquery.min.js') }}" type="text/javascript"></script>
         <!--   Sharrre Library    -->
@@ -43,7 +41,6 @@
         <script src="{{ asset('/assets/js/material-dashboard.js') }}"></script>
         <!-- Material Dashboard DEMO methods, don't include it in your project! -->
         <script src="{{ asset('/assets/js/demo.js') }}"></script>
-
         <script type="text/javascript">
             $().ready(function() {
                 demo.checkFullPageBackgroundImage();
