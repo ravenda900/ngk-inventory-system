@@ -20,9 +20,9 @@
     <!--  CSS for Demo Purpose, don't include it in your project     -->
     <link href="{{ asset('/assets/css/demo.css') }}" rel="stylesheet" />
     <!--     Fonts and icons     -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{ asset('/assets/vendor/font-awesome-4.7.0/css/font-awesome.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="{{ asset('/assets/css/material-icons.css') }}" rel="stylesheet">
 </head>
 @yield('body')
 </html>
