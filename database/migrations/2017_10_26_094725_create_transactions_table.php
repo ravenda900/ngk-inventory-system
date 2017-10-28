@@ -17,9 +17,7 @@ class CreateTransactionsTable extends Migration
             $table->integer('type_id')->unsigned();
             $table->integer('stock_id')->unsigned();
             $table->integer('quantity');
-            $table->timestamp('created_at')->useCurrent();
-            $table->timestamp('updated_at')
-                ->default(DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));
+            $table->timestamps();
         });
 
         Schema::table('transactions', function (Blueprint $table) {

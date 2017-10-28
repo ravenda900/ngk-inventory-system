@@ -3,7 +3,7 @@
 @section('body')
     <body>
         <div class="wrapper" id="app">
-            <div class="sidebar" data-active-color="rose" data-background-color="black" data-image="../assets/img/sidebar-1.jpg">
+            <div class="sidebar" data-active-color="rose" data-background-color="black" data-image="assets/img/sidebar-1.jpg">
                 <!--
             Tip 1: You can change the color of active element of the sidebar using: data-active-color="purple | blue | green | orange | red | rose"
             Tip 2: you can also add an image using data-image tag
@@ -20,7 +20,7 @@
                 <div class="sidebar-wrapper">
                     <div class="user">
                         <div class="photo">
-                            <img src="../assets/img/faces/avatar.jpg" />
+                            <img src="assets/img/faces/avatar.jpg" />
                         </div>
                         <div class="info">
                             <a data-toggle="collapse" href="dashboard.html#collapseExample" class="collapsed">
@@ -444,22 +444,22 @@
                     <li class="header-title">Images</li>
                     <li class="active">
                         <a class="img-holder switch-trigger" href="javascript:void(0)">
-                            <img src="../assets/img/sidebar-1.jpg" alt="" />
+                            <img src="assets/img/sidebar-1.jpg" alt="" />
                         </a>
                     </li>
                     <li>
                         <a class="img-holder switch-trigger" href="javascript:void(0)">
-                            <img src="../assets/img/sidebar-2.jpg" alt="" />
+                            <img src="assets/img/sidebar-2.jpg" alt="" />
                         </a>
                     </li>
                     <li>
                         <a class="img-holder switch-trigger" href="javascript:void(0)">
-                            <img src="../assets/img/sidebar-3.jpg" alt="" />
+                            <img src="assets/img/sidebar-3.jpg" alt="" />
                         </a>
                     </li>
                     <li>
                         <a class="img-holder switch-trigger" href="javascript:void(0)">
-                            <img src="../assets/img/sidebar-4.jpg" alt="" />
+                            <img src="assets/img/sidebar-4.jpg" alt="" />
                         </a>
                     </li>
                     <li class="button-container">
@@ -481,50 +481,50 @@
 
         <script src="{{ asset('js/app.js') }}"></script>
         <!--   Core JS Files   -->
-        <!-- <script src="{{ asset('/assets/js/jquery-3.2.1.min.js') }}"></script> -->
-        <!-- <script src="{{ asset('/assets/js/bootstrap.min.js') }}"></script> -->
-        <script src="{{ asset('/assets/js/material.min.js') }}"></script>
-        <script src="{{ asset('/assets/js/perfect-scrollbar.jquery.min.js') }}"></script>
+        <!-- <script src="{{ asset('assets/js/jquery-3.2.1.min.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script> -->
+        <script src="{{ asset('assets/js/material.min.js') }}"></script>
+        <script src="{{ asset('assets/js/perfect-scrollbar.jquery.min.js') }}"></script>
         <!-- Library for adding dinamically elements -->
-        <!-- <script src="{{ asset('/assets/js/arrive.min.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/arrive.min.js') }}"></script> -->
         <!-- Forms Validations Plugin -->
-        <!-- <script src="{{ asset('/assets/js/jquery.validate.min.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/jquery.validate.min.js') }}"></script> -->
         <!-- Promise Library for SweetAlert2 working on IE -->
-        <!-- <script src="{{ asset('/assets/js/es6-promise-auto.min.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/es6-promise-auto.min.js') }}"></script> -->
         <!--  Plugin for Date Time Picker and Full Calendar Plugin-->
-        <!-- <script src="{{ asset('/assets/js/moment.min.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/moment.min.js') }}"></script> -->
         <!--  Charts Plugin, full documentation here: https://gionkunz.github.io/chartist-js/ -->
-        <!-- <script src="{{ asset('/assets/js/chartist.min.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/chartist.min.js') }}"></script> -->
         <!--  Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
-        <!-- <script src="{{ asset('/assets/js/jquery.bootstrap-wizard.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/jquery.bootstrap-wizard.js') }}"></script> -->
         <!--  Notifications Plugin, full documentation here: https://bootstrap-notify.remabledesigns.com/    -->
-        <!-- <script src="{{ asset('/assets/js/bootstrap-notify.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/bootstrap-notify.js') }}"></script> -->
         <!--   Sharrre Library    -->
-        <!-- <script src="{{ asset('/assets/js/jquery.sharrre.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/jquery.sharrre.js') }}"></script> -->
         <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
-        <!-- <script src="{{ asset('/assets/js/bootstrap-datetimepicker.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/bootstrap-datetimepicker.js') }}"></script> -->
         <!-- Vector Map plugin, full documentation here: https://jvectormap.com/documentation/ -->
-        <!-- <script src="{{ asset('/assets/js/jquery-jvectormap.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/jquery-jvectormap.js') }}"></script> -->
         <!-- Sliders Plugin, full documentation here: https://refreshless.com/nouislider/ -->
-        <!-- <script src="{{ asset('/assets/js/nouislider.min.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/nouislider.min.js') }}"></script> -->
         <!--  Google Maps Plugin    -->
         <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFPQibxeDaLIUHsC6_KqDdFaUdhrbhZ3M"></script> -->
         <!--  Plugin for Select, full documentation here: https://silviomoreto.github.io/bootstrap-select -->
-        <!-- <script src="{{ asset('/assets/js/jquery.select-bootstrap.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/jquery.select-bootstrap.js') }}"></script> -->
         <!--  DataTables.net Plugin, full documentation here: https://datatables.net/    -->
-        <script src="{{ asset('/assets/js/jquery.datatables.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.datatables.js') }}"></script>
         <!-- Sweet Alert 2 plugin, full documentation here: https://limonte.github.io/sweetalert2/ -->
-        <!-- <script src="{{ asset('/assets/js/sweetalert2.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/sweetalert2.js') }}"></script> -->
         <!-- Plugin for Fileupload, full documentation here: https://www.jasny.net/bootstrap/javascript/#fileinput -->
-        <!-- <script src="{{ asset('/assets/js/jasny-bootstrap.min.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/jasny-bootstrap.min.js') }}"></script> -->
         <!--  Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar    -->
-        <!-- <script src="{{ asset('/assets/js/fullcalendar.min.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/fullcalendar.min.js') }}"></script> -->
         <!-- Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
-        <!-- <script src="{{ asset('/assets/js/jquery.tagsinput.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/jquery.tagsinput.js') }}"></script> -->
         <!-- Material Dashboard javascript methods -->
-        <script src="{{ asset('/assets/js/material-dashboard.js') }}"></script>
+        <script src="{{ asset('assets/js/material-dashboard.js') }}"></script>
         <!-- Material Dashboard DEMO methods, don't include it in your project! -->
-        <!-- <script src="{{ asset('/assets/js/demo.js') }}"></script> -->
+        <!-- <script src="{{ asset('assets/js/demo.js') }}"></script> -->
         <!-- <script>
             $(document).ready(function() {
 

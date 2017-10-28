@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\TransactionType;
+use App\UserType;
 
-class TransactionTypeSeeder extends Seeder
+class UserTypesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -12,12 +12,12 @@ class TransactionTypeSeeder extends Seeder
      */
     public function run()
     {
-        TransactionType::insert([
+        UserType::insert([
             [
-                'name' => 'Restock'
+                'name' => 'Super Administrator'
             ],
             [
-                'name' => 'Sold'
+                'name' => 'Administrator'
             ]
         ]);
     }
