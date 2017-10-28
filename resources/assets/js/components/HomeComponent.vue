@@ -15,7 +15,7 @@
                             <div v-if="isLoading">
                                 Loading...
                             </div>
-                            <div class="material-datatables hide" v-bind:class="{ show: !isLoading }">
+                            <div class="material-datatables hide" :class="{ show: !isLoading }">
                                 <table id="datatables" class="table table-striped table-no-bordered table-hover" cellspacing="0" width="100%" style="width:100%">
                                     <thead>
                                         <tr>
@@ -68,7 +68,7 @@
                 isLoading: true,
                 products: []
             }
-        }, 
+        },
         methods: {
             getAllProducts() {
                 let $this = this;
@@ -76,7 +76,7 @@
                 axios.get('/products')
                 .then(response => {
                     console.log(response);
-                    if(response.data 
+                    if(response.data
                         && _.isArray(response.data)) {
                         $this.products = response.data;
                     }

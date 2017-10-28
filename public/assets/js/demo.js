@@ -169,7 +169,7 @@ $().ready(function() {
 
     });
 
-    $('#twitter').sharrre({
+    /*$('#twitter').sharrre({
         share: {
             twitter: true
         },
@@ -200,7 +200,7 @@ $().ready(function() {
         },
         template: '<i class="fa fa-facebook-square"></i> &middot; 50',
         url: 'http://demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html'
-    });
+    });*/
 
 
 });

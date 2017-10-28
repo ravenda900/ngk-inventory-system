@@ -15,14 +15,15 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('home-component', require('./components/HomeComponent.vue'));
+Vue.component('layout', require('./components/LayoutComponent.vue'));
+Vue.component('guest', require('./components/layouts/GuestComponent.vue'));
+
+// Vue.component('home', require('./components/HomeComponent.vue'));
 
 // auth
-Vue.component('login-component', require('./components/auth/LoginComponent.vue'));
-Vue.component('register-component', require('./components/auth/RegisterComponent.vue'));
+// Vue.component('login', require('./components/guest/auth/LoginComponent.vue'));
+// Vue.component('register', require('./components/guest/auth/RegisterComponent.vue'));
 
-$(document).ready(function() {
-	const app = new Vue({
-	    el: '#app'
-	});
+const app = new Vue({
+    el: '#app'
 });
